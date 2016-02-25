@@ -29,7 +29,7 @@ public class Oso {
             case "init":
                 File gitlet = new File(".gitlet"); 
                 if (gitlet.exists()) {
-                    System.out.println("A gitlet version control system already exists in the current directory.");
+                    System.out.println("An Oso system already exists in the current directory.");
                     return;
                 } else {
                     gitlet.mkdir();
