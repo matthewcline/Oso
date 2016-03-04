@@ -61,7 +61,7 @@ public class Oso {
             objectOutput.writeObject(staged);
             objectOutput.close();
         } catch (IOException e) {
-            System.out.println("IOException while saving File.");
+            System.out.println("IOException while saving the File.");
         }
     }
 }
